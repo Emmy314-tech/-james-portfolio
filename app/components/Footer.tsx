@@ -18,7 +18,7 @@ export default function Footer() {
         </p>
 
         <p className="text-sm text-purple-400">
-          Midnight Keeper 👻
+            Midnight Keeper 
         </p>
       </div>
     </footer>

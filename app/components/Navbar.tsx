@@ -30,7 +30,7 @@ export default function Navbar() {
             href="#midnight-keeper"
             className="text-sm text-purple-400 transition hover:text-purple-300"
           >
-            Midnight Keeper 👻
+            Midnight Keeper 
           </a>
 
           <a href="#contact" className="text-sm text-gray-400 transition hover:text-purple-400">

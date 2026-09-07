@@ -17,7 +17,7 @@ export default function Contact() {
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
           <a
-            href="mailto:nevergiv061@gmail.com"
+            href="mailto:Emmyike@proton.me"
             className="rounded-xl bg-purple-600 px-7 py-3.5 font-semibold transition hover:-translate-y-1 hover:bg-purple-500"
           >
             Email Me
@@ -29,7 +29,7 @@ export default function Contact() {
           rel="noopener noreferrer"
          className="rounded-xl border border-purple-500/40 px-7 py-3.5 font-semibold transition hover:-translate-y-1 hover:border-purple-400 hover:bg-purple-500/10"
 >
-          WhatsApp Me 💬
+          WhatsApp Me 
         </a>
         </div>
       </div>

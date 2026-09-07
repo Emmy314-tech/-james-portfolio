@@ -1,31 +1,25 @@
 const skills = [
   {
-    icon: "💻",
     title: "Software Development",
     description: "Building modern web applications and practical digital products.",
   },
   {
-    icon: "🤖",
     title: "Artificial Intelligence",
     description: "Exploring AI systems, intelligent assistants, and adaptive software.",
   },
   {
-    icon: "⚡",
     title: "Embedded Systems",
     description: "Working with electronics, microcontrollers, sensors, and automation.",
   },
   {
-    icon: "🗄️",
     title: "Backend & Databases",
     description: "Designing APIs, authentication systems, databases, and server logic.",
   },
   {
-    icon: "🌐",
     title: "Full-Stack Development",
     description: "Connecting beautiful interfaces with reliable backend systems.",
   },
   {
-    icon: "🐧",
     title: "Linux & Tools",
     description: "Using development tools, terminals, Git, and Linux environments.",
   },
@@ -54,9 +48,7 @@ export default function Skills() {
               key={skill.title}
               className="group rounded-2xl border border-purple-500/10 bg-white/[0.03] p-7 transition duration-300 hover:-translate-y-2 hover:border-purple-500/40 hover:bg-purple-500/[0.05]"
             >
-              <div className="text-4xl">{skill.icon}</div>
-
-              <h3 className="mt-5 text-xl font-bold">
+              <h3 className="text-xl font-bold">
                 {skill.title}
               </h3>
 
